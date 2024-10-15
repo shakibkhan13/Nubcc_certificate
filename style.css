@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+.main-box{
+    margin: 100px;
+    border: rgb(148, 148, 148) 1px solid;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 800px;
+}
+.center{
+    margin-top: -30px;
+}
+.align-padding{
+    margin-top: 33px;
+}
+
+
+
+h1{
+    display: inline-block;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: black;
+    background: linear-gradient(to top left,#804c10,#a56112,#c0987c,#8d6222,#c4a06a,#e99f07,#a56112);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h4{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+}
+hr{
+    border: 1px solid #c0987c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name{
+    font-size: 130px;
+    font-family: "Qwitcher Grypen", cursive;
+    margin-top: -40px;
+}
+.details{
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sub-details{
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+}
+.footer{
+    gap: 200px;
+}
+span{
+    font-size: 17px;
+    font-family: "Roboto Slab", serif;
+}
+
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    input[type="button"] {
+        display: none; 
+    }
+
+    .main-box {
+        margin: 0;
+        padding: 0;
+        background-image: url('images/bg.png'); 
+        background-size: cover;
+        background-position: center;
+    }
+}
